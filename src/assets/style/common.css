@@ -1,0 +1,33 @@
+html,body,#root,#page,
+#page>div{
+  height:100%;
+}
+
+.header-tmp {
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  /* background: #ea0a0a; */
+  color: #fff;
+  font-size: 0.14rem;
+  border-top: 1px solid #e5e5e5;
+  padding: 0 0.15rem;
+  box-sizing: border-box;
+}
+
+.footer-tmp{
+  bottom: 0px;
+  width: 100%;
+  color: #333;
+  background:#fff;
+  height:50px;
+  font-size: 0.12rem;
+  box-shadow: 0 -4px 16px 0 rgba(0,0,0,.08);
+  border-top: 1px solid #e5e5e5
+}
+
+.footer-tmp img{
+  width: 0.6rem;
+  margin:0 auto;
+  vertical-align: center;
+}

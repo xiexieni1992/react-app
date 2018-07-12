@@ -1,0 +1,25 @@
+.brand-wrapper{
+  width: 100px;
+  height:100%;
+  padding-bottom:60px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.brand-wrapper > div> p{
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #080808;
+  overflow: hidden;
+  text-overflow: ellips;
+  background:#f8f8f8;
+  cursor: pointer;
+ }
+ .brand-wrapper > div> .active{
+  background:#fff;
+  color: #e93b3d;
+ }

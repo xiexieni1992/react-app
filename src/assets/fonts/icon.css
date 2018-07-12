@@ -1,0 +1,253 @@
+/**
+ * @file icon.css
+ */
+[class^="icon-"],[class*=" icon-"]:before{font-family:"iconfont";font-style:normal;font-weight:normal;speak:none;display:inline-block;
+  /*margin-top:1px;*/
+  text-decoration:inherit;width:1em;text-align:center;font-variant:normal;text-transform:none;line-height:1;
+  /*margin-left:.2em;*/
+  /*margin-right:.2em;*/
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+[class^="icon-"]:before,[class*=" icon-"]:before{text-decoration:inherit;display:inline-block;speak:none;}
+@font-face {
+  font-family: 'iconfont';  /* project id 498406 */
+  src: url('//at.alicdn.com/t/font_498406_cko6wwiz994wjyvi.eot');
+  src: url('//at.alicdn.com/t/font_498406_cko6wwiz994wjyvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_498406_cko6wwiz994wjyvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_498406_cko6wwiz994wjyvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_498406_cko6wwiz994wjyvi.svg#iconfont') format('svg');
+}
+/* @font-face {
+  font-family:DINPro-Bold; 
+  src: url('../../fonts/DINPro-Bold.otf');
+}
+
+@font-face {
+  font-family:DINPro-Medium; 
+  src: url('../../fonts/DINPro-Medium.otf');
+}
+
+.DINPro-Bold{
+  font-family:DINPro-Bold;
+}
+
+.DINPro-Medium{
+  font-family:DINPro-Medium;
+} */
+.icon {
+  font-family: "iconfont" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /*line-height: 1;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position:relative;
+  /*top:1px;*/
+}
+/*操作类弹窗*/
+.icon-tips-warn:before{ /*警告*/
+  color: #f29519;
+  content: "\e65b";
+}
+.icon-tips-error:before{ /*错误*/
+  color: #d21720;
+  content: "\e640";
+}
+.icon-tips-yes:before{ /*对勾*/
+  color: #0baa2a;
+  content: "\e60e";
+}
+.icon-closed:before{
+  content: "\e812";
+}
+/* 消息类弹窗 */
+.icon-horn::before{
+  content: "\e637";
+  color:#ff7700;
+  
+}
+.icon-info-warn:before{ /*警告*/
+  content: "\e65e"; 
+}
+.icon-info-error:before{ /*错误*/
+  content: "\e666";
+}
+.icon-info-yes:before{ /*对勾*/
+  content: "\e665";
+}
+/*信用回收*/
+.icon-delete1:before{/*删除*/
+  color: #666;
+  content: "\e667";
+}
+.icon-loading1:before{/*loading*/
+  content: "\e77f";
+}
+.icon-zhima-normal:before{ /*芝麻信用原型*/
+  content: "\e61c";
+}
+
+.icon-decline:before{ /*下降趋势*/
+  content: "\e60a";
+}
+
+.icon-upline:before{ /*上升趋势*/
+  content: "\e616";
+}
+.icon-phone-info2:before{ /*手机*/
+  content: "\e6c6";
+}
+.icon-user:before{ /*用户中心*/
+  content: "\e681";
+}
+.icon-location:before { /*地址定位*/
+  content: "\e614";
+}
+.icon-right:before{ /*右箭头*/
+  content: "\e657";
+}
+.icon-small-left:before{ /*细左箭头*/
+  content: "\e608";
+}
+.icon-small-right:before{ /*细右箭头*/
+  content: "\e609";
+}
+.icon-small-bottom:before{ /*下箭头*/
+  content: "\e749";
+}
+.icon-bold-bottom:before{ /*下粗箭头*/
+  content: "\e645";
+}
+.icon-order1:before{ /*订单*/
+  content: "\e6c5";
+}
+.icon-money1:before{ /*金额*/
+  content: "\e60d";
+}
+.icon-medal:before{/*奖牌*/
+  content: "\e650";
+}
+.icon-yes1:before{ /*对勾*/
+  content: "\e6ac";
+}
+.icon-right-bold:before{ /*右箭头-粗*/
+  content: "\e646";
+}
+/* 评估项页 */
+.icon-question-item:before{
+  content: "\e66b";
+}
+.icon-safe:before{
+  content: "\e61d";
+}
+.icon-eva-ensure:before{
+  content: "\e645";
+}
+/* 普通回收订单 */
+.icon-hs-pay:before{ /*确认收款*/
+  content: "\e672";
+}
+.icon-money-icon:before{
+  content: "\e67d";
+}
+.icon-coin:before{
+  /* color:#fd9f13; */
+  content: "\e6c7";
+}
+/* 消息型 */
+.icon-sus-warn:before{ /*成功提醒图标*/
+  color:#0baa2a;
+  content: "\e67a";
+}
+
+.icon-fail-warn:before{ /*失败提醒图标*/
+  content: "\e67b";
+}
+
+
+
+
+
+/* 订单中心 */
+.icon-clock-hs:before{
+  content: "\e661";
+}
+.icon-order-status:before{
+  content: "\e680";
+}
+.icon-order-address:before{
+  content: "\e679";
+}
+.icon-recycle-type:before{
+  content:"\e673";
+}
+.icon-geo-address:before{
+  content:"\e677";
+}
+.icon-post-car:before{
+  content:"\e67c";
+}
+.icon-user:before{
+  content:"\e681";
+}
+
+
+/*信用回收*/
+  /*服务协议*/
+  .iconfont-fumian:before{
+    color:#5BC6B3;
+    content:"\e61e";
+  }
+  .iconfont-weiyue:before{
+    color:#5BC6B3;
+    content:"\e620";
+  }
+  .iconfont-yes:before{
+    content:"\e62a";
+  }
+  .iconfont-kuaidi2:before{
+    color:#5BC6B3;
+    content:"\e61f";
+  }
+  .iconfont-tuihuo:before{
+    color:#5BC6B3;
+    content:"\e61b";
+  }
+  .iconfont-dingdan:before{
+    color:#5BC6B3;
+    content:"\e811";
+  }
+  .iconfont-user:before{
+    color:#5BC6B3;
+    content:"\e658";
+  }
+
+
+/* 搜索页 */
+/* .iconfont-fire:before{
+  content: "\e660";
+} */
+.iconfont-clock:before{
+  content: "\e661";
+}
+.iconfont-fire:before{
+  content:"\e63a";
+}
+.iconfont-search::before{
+  content:"\e63d"
+}
+
+/*顺丰icon*/
+.icon-sf-icon:before{
+    content:"\e626";
+}
+/*price-down*/
+.icon-price-down:before{
+    content:"\e683";
+}
+.icon-question-item-all:before{
+  color: #0baa2a;
+  content: "\e65c";
+}

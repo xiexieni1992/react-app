@@ -1,0 +1,8 @@
+#homePage .swiper{
+  width:100%;
+  box-sizing:border-box;
+  overflow: hidden;
+}
+#homePage .swiper img{
+  width:3.75rem;
+}
